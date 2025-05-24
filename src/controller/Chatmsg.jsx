@@ -1,5 +1,5 @@
 import React from "react";
-import ProfileImg from "../assets/images/whaha.jpg"
+import ProfileImg from "../assets/images/newProf.jpg"
 const Chatmsg = ({ chat }) => {
   return (
     !chat.hideInChat && (

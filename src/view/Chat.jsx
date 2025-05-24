@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import ProfileImg from "../assets/images/whaha.jpg";
+import ProfileImg from "../assets/images/newProf.jpg";
 import Chatform from "../controller/chatform";
 import Chatmsg from "../controller/Chatmsg";
 import { aboutMe } from "../controller/Aboutme.js";
