@@ -25,7 +25,7 @@
 
 
 import { useState, useEffect } from "react";
-import Maincontent from "./view/mainContent.jsx";
+import MainContent from "./view/mainContent.jsx";
 import Disclaimer from "./view/disclaimer.jsx";
 import Chat from "./view/chat.jsx";
 
@@ -58,7 +58,7 @@ function App() {
   return (
     <>
       <Disclaimer/>
-      {!hasSubmittedBefore && !showChat && <Maincontent onUserSubmit={handleUsernameSubmit} />}
+      {!hasSubmittedBefore && !showChat && <MainContent onUserSubmit={handleUsernameSubmit} />}
       {showChat && <Chat username={username} />}
     </>
   );

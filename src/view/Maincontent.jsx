@@ -4,7 +4,7 @@ import { motion, AnimatePresence} from "framer-motion";
 import { fadeAway } from "../animations/fadeaway";
 import { Typewriter, useTypewriter } from "react-simple-typewriter";
 
-function Maincontent({ onUserSubmit }) {
+function MainContent({ onUserSubmit }) {
 
   const getTimeBasedGreeting = () => {
     const hour = new Date().getHours();
@@ -76,4 +76,4 @@ function Maincontent({ onUserSubmit }) {
   );
 }
 
-export default Maincontent;
+export default MainContent;
