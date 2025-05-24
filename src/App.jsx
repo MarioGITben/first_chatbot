@@ -34,7 +34,6 @@ function App() {
   const [showChat, setShowChat] = useState(false);
   const [hasSubmittedBefore, setHasSubmittedBefore] = useState(false);
 
-  // Check if user has submitted username before on component mount
   useEffect(() => {
     const savedUsername = localStorage.getItem("chatUsername");
     const hasSubmitted = localStorage.getItem("hasSubmittedUsername");
