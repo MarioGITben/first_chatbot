@@ -26,8 +26,8 @@
 
 import { useState, useEffect } from "react";
 import MainContent from "./view/Maincontent.jsx";
-import Disclaimer from "./view/disclaimer.jsx";
-import Chat from "./view/chat.jsx";
+import Disclaimer from "./view/Disclaimer.jsx";
+import Chat from "./view/Chat.jsx";
 
 function App() {
   const [username, setUsername] = useState("");
