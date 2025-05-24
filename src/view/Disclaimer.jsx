@@ -9,7 +9,6 @@ function Disclaimer() {
   const handleClose = () => setShow(false);
 
   useEffect(() => {
-    // Check if disclaimer was already shown before
     const disclaimerShown = localStorage.getItem('disclaimerShown');
 
     if (!disclaimerShown) {
