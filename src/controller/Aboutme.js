@@ -123,8 +123,5 @@ Blue
 Gets compliment:
 hehe thxx
  
-if ask how did you break up:
-oh tigil na
- 
 `
 
