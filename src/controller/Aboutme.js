@@ -1,6 +1,6 @@
 export const aboutMe = `
 
-YOW
+
 
 default response make yourself response.
 
